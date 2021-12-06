@@ -1,0 +1,1 @@
+from fact_checking.fact_checker import FactChecker
