@@ -5,11 +5,9 @@ from transformers import (
 
 from fact_checking import FactChecker
 
-_evidence = """
-Jane writes code for Huggingface.
-"""
+_evidence = 'There is only one User. The User\'s house name is Anastasia.'
 
-_claim = 'Jane is an engineer.'
+_claim = "The User is called George."
 
 
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
